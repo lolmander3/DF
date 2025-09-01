@@ -1,0 +1,43 @@
+Proceso Hemoglobina
+    int N,
+    float hb 
+    int hBaja, hNormal, hAlta, mBaja, mNormal, mAlta 
+
+    hBaja = 0
+    hNormal =  0
+    hAlta = 0
+    mBaja = 0
+    mNormal = 0
+    mAlta = 0
+
+    Leer "Cantidad de pacientes: ",N
+
+    Para i <- 1 Hasta N Hacer 
+        Leer "Genero (1=Hombre, 2=Mujer): ",genero
+        Leer "Hemoglobina: ",hb
+        Si genero=1 Entonces
+            Si hb<12.2 Entonces
+                hBaja <- hBaja+1
+            SinoSi hb<=16.6 Entonces
+                hNormal <- hNormal+1
+            Sino
+                hAlta <- hAlta+1
+            FinSi
+        Sino
+            Si hb<12.6 Entonces
+                mBaja <- mBaja+1
+            SinoSi hb<=15 Entonces
+                mNormal <- mNormal+1
+            Sino
+                mAlta <- mAlta+1
+            FinSi
+        FinSi
+    FinPara
+
+    Escribir "Hombres Baja: ", hBaja
+    Escribir "Hombres Normal: ", hNormal
+    Escribir "Hombres Alta: ", hAlta
+    Escribir "Mujeres Baja: ", mBaja
+    Escribir "Mujeres Normal: ", mNormal
+    Escribir "Mujeres Alta: ", mAlta
+FinProceso

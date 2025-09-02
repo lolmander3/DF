@@ -1,11 +1,8 @@
 INICIO
 float hemoglobina
 int genero
-
-escriba " hombre 1 mujer 2"
-LEER  genero
-ESCRIBA "nivel de hemoglobina"
-LEER  hemoglobina  
+LEER " hombre 1 mujer 2",genero
+LEER  "nivel de hemoglobina",hemoglobina  
     SI genero = 1 ENTONCES
         SI hemoglobina < 12.2 ENTONCES
             escriba "Baja"

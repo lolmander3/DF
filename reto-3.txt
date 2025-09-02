@@ -1,0 +1,24 @@
+inicio 
+    int: N, gen,ConH
+    float: Hm, Sum_M, Prom_M
+
+    leer "Cantidad de pacientes: ", N 
+    para i = 1 hasta N Hacer
+        leer "ingrear género (masculino = 1, femenino = 2): "gen
+            si gen == 1 hacer 
+                leer "Nivel de hemoglobina: ",Hm
+                ConM = ConM+1
+                Sum_M = Sum_M + Hm
+                si Hm < 12.2 hacer
+                    hmbajo_
+            sino si gen == 2 hacer
+                leer "Nivel de hemoglobina: ",Hm
+                ConF = ConF+1
+                Sum_F = Sum_F+Hm
+            sino
+                Escribir "error al ingresar el genero"
+            finsi
+
+#realiaar promedios de hemoglobina
+si conM > 0 hacer
+

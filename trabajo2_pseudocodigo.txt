@@ -27,10 +27,10 @@ Proceso Hemoglobina
         FinSi
     FinPara
 
-    Escribir "Hombres Baja: ", hBaja
-    Escribir "Hombres Normal: ", hNormal
-    Escribir "Hombres Alta: ", hAlta
-    Escribir "Mujeres Baja: ", mBaja
-    Escribir "Mujeres Normal: ", mNormal
-    Escribir "Mujeres Alta: ", mAlta
+    Escribir "Hombres con hemoglobina Baja: ", hBaja
+    Escribir "Hombres con hemoglobina Normal: ", hNormal
+    Escribir "Hombres con hemoglobinaAlta: ", hAlta
+    Escribir "Mujeres con hemoglobina Baja: ", mBaja
+    Escribir "Mujeres con hemoglobina Normal: ", mNormal
+    Escribir "Mujeres con hemoglobina Alta: ", mAlta
 FinProceso

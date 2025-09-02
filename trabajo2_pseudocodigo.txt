@@ -3,13 +3,6 @@ Proceso Hemoglobina
     float hb 
     int hBaja, hNormal, hAlta, mBaja, mNormal, mAlta 
 
-    hBaja = 0
-    hNormal =  0
-    hAlta = 0
-    mBaja = 0
-    mNormal = 0
-    mAlta = 0
-
     Leer "Cantidad de pacientes: ",N
 
     Para i <- 1 Hasta N Hacer 
